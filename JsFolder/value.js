@@ -10,6 +10,6 @@ let q = c; // Neet to use concat()
 q.push(6);
 
 // let c = [1, 2 ,3 ,4]
-
+  
 console.log(c);
 console.log(q);
