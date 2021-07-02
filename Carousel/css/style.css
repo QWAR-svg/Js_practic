@@ -1,0 +1,32 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel__container{
+     width: 60%;
+     margin: auto;
+     border: 1px solid black;
+     overflow: hidden;
+}
+
+.carousel__slide{
+    display: flex;
+}
+
+button {
+    padding: 50px;
+    border-radius: 30%;
+    background: rgb(red, green, blue);
+}
+
+.transformAnim{
+    transition: 0.3s;
+}
