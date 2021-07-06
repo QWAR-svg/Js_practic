@@ -1,0 +1,44 @@
+*{ 
+   padding: 0;
+   margin: 0;
+}
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+}
+.head{
+    /* text-align: center; */
+    position: fixed;
+    /* background: green; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* left: 0; */
+    height: 100vh;
+    /* height: 80px; */
+    background: yellow;
+}
+
+
+.text {
+    font-size: 1.2;
+    color: grey;
+    margin-top: 100px;
+    text-align: justify;
+    margin-left: 100px;
+
+}
+
+.scroll-container {
+    position: absolute;
+    height: 100%;
+    /* bottom: 0; */
+    background: black;
+    width: 10px;
+}
+
+.scroll {
+    background: white;
+    height: 0%;
+    width: 10px;
+}
